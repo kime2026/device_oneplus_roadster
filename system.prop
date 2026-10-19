@@ -1,0 +1,12 @@
+# System Properties for OnePlus Ace 6 Ultra (roadster)
+ro.product.device=roadster
+ro.vendor.device=roadster
+ro.build.product=roadster
+
+# Display & Refresh Rate
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.has_HDR_display=true
+
+# MediaTek Platform Audio & RIL
+ro.mediatek.version.release=alps-mp-b
+vendor.rild.libpath=mtk-ril.so
