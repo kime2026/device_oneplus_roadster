@@ -1,0 +1,25 @@
+#
+# Proprietary blobs list for OnePlus Ace 6 Ultra (roadster / 25815)
+#
+
+# Audio HAL & MTK Sound Processing
+vendor/lib64/hw/audio.primary.mt6993.so
+vendor/lib64/libmtkaudio_ext.so
+
+# Radio / Cellular Modem / VoLTE (MTK RIL)
+vendor/lib64/mtk-ril.so
+vendor/lib64/librilmtk.so
+vendor/lib64/librilmtk_ims.so
+
+# Display / Graphics (Mali Vulkan / Composer)
+vendor/lib64/hw/hwcomposer.mt6993.so
+vendor/lib64/hw/gralloc.mt6993.so
+vendor/lib64/libvulkan_mali.so
+
+# Thermal & Power Management
+vendor/bin/hw/android.hardware.thermal-service.mediatek
+vendor/lib64/hw/thermal.mt6993.so
+
+# OPlus Custom Hardware (Biometrics & Charging)
+vendor/lib64/vendor.oplus.hardware.biometrics.fingerprint.so
+vendor/lib64/vendor.oplus.hardware.charger.so
